@@ -1,0 +1,195 @@
+/*==============================
+Nav Section
+==============================*/
+
+.nav-button {
+	display:block;
+	width:5em;
+	height:5em;
+	border-radius:50%;
+	border:1px solid #fff;
+	position:absolute;
+	position:fixed;
+	top:20px;
+	right:20px;
+	z-index:1000;
+	overflow:hidden;
+	background-color:#273985;
+	z-index:10100;
+	box-shadow:0 0 10px rgb(0,0,0);
+}
+
+.button {
+	width:5em;
+	height:5em;
+	position:absolute;
+	right:5em;
+	background-color:#273985;
+}
+
+.logo-button {
+	width:3em;
+	width:3em;
+	position:absolute;
+	top:0.7em;
+	right:1em;
+}
+
+.small-button {
+	display:none;
+}
+
+.small-logo {
+	display:none;
+}
+
+.visible-logo-area {
+	display:none;
+}
+
+
+.nav-ul {
+	width:30%;
+	height:100vh;
+	background-color:#273985;
+	position:absolute;
+	position:fixed;
+	right:-45%;
+	top:0px;
+	margin-top:0px;
+	list-style-type:none;
+}
+
+.nav-li {
+	display:block;
+	margin-top:30%;
+	margin-bottom:29%;
+	text-align:left;
+}
+
+.nav-li-a {
+	text-decoration:none;
+	padding:15px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+/*==============================
+Home Code
+==============================*/
+
+.serv-area {
+	width:100%;
+	height:10em;
+}
+
+.serv-area:hover {
+	height:10em;
+}
+
+.first-area {
+	top:0px;
+}
+
+.second-area {
+	top:10em;
+	left:0px;
+}
+
+.serv-sec-head {
+	width:20%;
+	position:absolute;
+	left:0px;
+	padding-right:5px;
+	border-right:2px solid #696969;
+}
+
+.first-head {
+	top:15%;
+}
+
+.third-head {
+	top:15%;
+}
+
+.serv-p {
+	width:60%;
+	position:absolute;
+	left:22%;
+	top:-40%;
+}
+
+.first-p {
+	width:55%;
+}
+
+.sec-p {
+	width:55%;
+	top:-30%;
+}
+
+.third-p {
+	width:55%;
+	top:-60%;
+}
+
+.link-button {
+	width:20%;
+	position:absolute;
+	right:0px;
+	top:35%;
+}
+
+
+/*==============================
+General Code
+==============================*/
+
+#home-page-image {
+	background-image:url("../img/coffee_medium.jpg");
+}
+
+#about-page-image {
+	background-image:url("../img/mountain_medium.jpg");
+}
+
+#employment-page-image {
+	background-image:url("../img/talking_medium.jpg");
+}
+
+#opp-page-image {
+	background-image:url("../img/comp_medium.jpg");
+}
+
+#res-page-image {
+	background-image:url("../img/lake_medium.jpg");
+}
+
+#dis-page-image {
+	background-image:url("../img/hands_medium.jpg");
+}
+
+.text-body-p {
+	width:70%;
+}
+
+.second-heading {
+	width:70%;
+}
+
+.head-two-white {
+	width:50%;
+}
+
+.head-image {
+	height:50vh;
+}
+
+.title-name {
+	top:25%;
+}
+
+.img-txt-break {
+	width:70%;
+}
+

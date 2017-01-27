@@ -1,0 +1,410 @@
+html, body {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	font-weight:lighter;
+	font-family:sans-serif;
+	position:relative;
+}
+
+footer {
+	position:relative;
+	top:-3%;
+	width:100%;
+	height:auto;
+	text-align:center;
+	background-color:#273985;
+}
+
+footer > p {
+	padding-top:2%;
+	padding-bottom:2%;
+	color:#fff;
+}
+
+/*==============================
+Nav Section
+==============================*/
+
+.nav-button {
+	display:none;
+}
+
+nav {
+	position:absolute;
+	z-index:1000;
+	width:100%;
+}
+
+.visible-logo-area {
+	width:5em;
+	height:5em;
+	margin-top:20px;
+	margin-left:20px;
+}
+
+.logo {
+	height:100%;
+	width:100%;
+}
+
+.logo-text {
+	position:absolute;
+	top:0.8em;
+	left:7em;
+	color:#fff;
+}
+
+.nav-ul {
+	position:absolute;
+	right:20px;
+	top:30px;
+	list-style-type:none;
+}
+
+.nav-li {
+	margin-top:0px;
+	display:inline-block;
+}
+
+.nav-li-a {
+	text-decoration:none;
+	padding:15px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+/*==============================
+Home Section
+==============================*/
+
+.head-image {
+	width:100%;
+	height:100vh;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center center;
+	box-shadow:inset 0 0 0 800px rgba(0,0,0,0.4);
+	text-align:center;
+}
+
+#home-page-image {
+	background-image:url("../img/coffee_large.jpg");
+}
+
+.title-name {
+	color:#fff;
+	font-weight:lighter;
+	margin-top:0px;
+	position:absolute;
+	top:43%;
+	width:100%;
+	font-size:45px;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.text-body {
+	width:100%;
+	height:auto;
+	padding-top:2%;
+	background-color:#fff;
+}
+
+.text-body-p {
+	width:60%;
+	margin:auto;
+	line-height:30px;
+	margin-bottom:4%;
+}
+
+#services-section {
+	width:100%;
+	height:30em;
+	background-color:#ededed;
+	padding-top:2%;
+	overflow:hidden;
+	position:relative;
+}
+
+.text-h3 {
+	width:25%;
+	padding:5px 0px 5px 0px;
+	border:2px solid #696969;
+	font-weight:lighter;
+	font-size:35px;
+	color:#696969;
+	margin:auto;
+	text-align:center;
+}
+
+.serv-area {
+	position:absolute;
+	bottom:0px;
+	width:33.33%;
+	height:20em;
+	background-color:#ededed;
+	text-align:center;
+	transition:all 0.5s ease;
+}
+
+.serv-area:hover {
+	height:24em;
+}
+
+.serv-area:hover .first-p {
+	margin-bottom:2%;
+}
+
+.serv-area:hover .sec-p {
+	margin-bottom:2%;
+}
+
+.serv-area:hover .third-p {
+	margin-bottom:2%;
+}
+
+.second-area {
+	left:33.33%;
+}
+
+.third-area {
+	right:0px;
+}
+
+.serv-sec-head {
+	font-weight:lighter;
+}
+
+.serv-p {
+	width:80%;
+	margin:auto;
+	margin-top:10%;
+	line-height:30px;
+	text-align:left;
+}
+
+.first-p {
+	margin-bottom:30%;
+	transition:all 0.5s ease;
+}
+
+.sec-p {
+	margin-bottom:30%;
+	transition:all 0.5s ease;
+}
+
+.third-p {
+	margin-bottom:15%;
+	transition:all 0.5s ease;
+}
+
+.link-button {
+	padding:15px;
+	border-radius:20px;
+	text-transform:uppercase;
+	font-size:18px;
+	border:2px solid #696969;
+	background-color:transparent;
+	color:#696969;
+	outline:none;
+	transition:all 0.5s ease;
+}
+
+.link-button:hover {
+	background-color:#696969;
+	color:#ededed;
+}
+
+.video-section {
+	width:100%;
+	height:100vh;
+	background-image:url("../img/coffee_large.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	box-shadow:inset 0 0 0 800px rgba(0,0,0,0.4);
+	overflow:hidden;
+	padding-top:5%;
+	position:relative;
+}
+
+.head-two-white {
+	font-weight:lighter;
+	font-size:35px;
+	width:25%;
+	padding:5px 0px 5px 0px;
+	border:2px solid #fff;
+	margin:auto;
+	color:#fff;
+	text-align:center;
+}
+
+#left-click {
+	width:2em;
+	height:2em;
+	background-color:#008080;
+	position:absolute;
+	top:55%;
+	left:0px;
+}
+
+#right-click {
+	width:2em;
+	height:2em;
+	background-color:#008080;
+	position:absolute;
+	top:55%;
+	right:0px;
+}
+
+.selection {
+	width:90%;
+	height:80%;
+	border:1px solid #fff;
+	margin:auto;
+	margin-top:2.5%;
+	position:relative;
+	overflow:hidden;
+}
+
+.vid-sel {
+	height:100%;
+	width:100%;
+	background-image:url("../img/comp_large.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	position:absolute;
+}
+
+#vid-one {
+	background-image:url("../img/comp_large.jpg");
+}
+
+#vid-two {
+	right:-100%;
+	background-image:url("../img/lake_large.jpg");
+}
+
+/*==============================
+About Section
+==============================*/
+
+#about-page-image {
+	background-image:url("../img/mountain_large.jpg");
+	height:50vh;
+}
+
+.sec-name {
+	top:25%;
+}
+
+.image-break {
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+	box-shadow:inset 0 0 0 800px rgba(0,0,0,0.4);
+	text-align:center;
+	padding-top:10%;
+	padding-bottom:10%;
+}
+
+#about-break {
+	background-image:url("../img/mountain_large.jpg");
+}
+
+.img-txt-break {
+	color:#fff;
+	font-weight:lighter;
+	padding:10px 0px 10px 0px;
+	border:2px solid #fff;
+	width:40%;
+	margin:auto;
+}
+
+/*==============================
+Employment Section
+==============================*/
+
+#employment-page-image {
+	background-image:url("../img/talking_large.jpg");
+	height:50vh;
+}
+
+.emp-image {
+	background-image:url("../img/talking_large.jpg");
+}
+
+.second-heading {
+	width:60%;
+	margin:auto;
+	font-weight:lighter;
+	margin-top:2%;
+	margin-bottom:1%;
+	border-bottom:1px solid #000;
+}
+
+/*==============================
+Disabilities Section
+==============================*/
+
+#dis-page-image {
+	background-image:url("../img/hands_large.jpg");
+	height:50vh;
+}
+
+.dis-img {
+	background-image:url("../img/hands_large.jpg");
+}
+
+.dis-text {
+	padding-top:5%;
+	padding-bottom:7%;
+	line-height:35px;
+}
+
+/*==============================
+Opportunities Section
+==============================*/
+
+#opp-page-image {
+	background-image:url("../img/comp_large.jpg");
+	height:50vh;
+}
+
+.quote {
+	width:60%;
+	font-weight:bold;
+	margin:auto;
+	text-align:center;
+	margin-top:1%;
+	margin-bottom:2%;
+}
+
+.opp-img {
+	background-image:url("../img/comp_large.jpg");
+}
+
+/*==============================
+Resources Section
+==============================*/
+
+#res-page-image {
+	background-image:url("../img/lake_large.jpg");
+	height:50vh;
+}
+
+.res-img {
+	background-image:url("../img/lake_large.jpg");
+}
+
+
+
+
+
