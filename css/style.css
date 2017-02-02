@@ -404,7 +404,20 @@ Resources Section
 	background-image:url("../img/lake_large.jpg");
 }
 
+/*==============================
+Contact Section
+==============================*/
 
+#contact a{
+  color: #008080;
+  text-decoration: none;
+}
 
+#contact li{
+	list-style-type: none;
+}
 
+#contact{
+	padding: 0;
+}
 
