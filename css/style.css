@@ -66,6 +66,7 @@ nav {
 .nav-li {
 	margin-top:0px;
 	display:inline-block;
+	position: relative;
 }
 
 .nav-li-a {
@@ -73,6 +74,27 @@ nav {
 	padding:15px;
 	color:#fff;
 	text-transform:uppercase;
+}
+
+.dropdown-content{
+	display:none;
+	position: absolute;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.dropdown-content .dropdown-link{
+	color: white;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+#dropbtn:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
 
 /*==============================
