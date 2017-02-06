@@ -74,6 +74,19 @@ Nav Section
 	text-transform:uppercase;
 }
 
+.dropdown{
+	display: block;
+}
+
+.dropdown-content{
+	margin: 10px 10px;
+	position: relative;
+	background-color: transparent;
+}
+
+.dropdown-link{
+	padding: 12px 20px;
+}
 /*==============================
 Home Code
 ==============================*/
