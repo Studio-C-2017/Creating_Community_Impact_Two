@@ -76,10 +76,17 @@ nav {
 	text-transform:uppercase;
 }
 
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
 .dropdown-content{
-	display:block;
+	margin: 10px 0;
+	display:none;
 	position: absolute;
 	background-color: rgba(0,0,0,0.4);
+	z-index: 1;
 }
 
 .dropdown-content .dropdown-link{
@@ -89,12 +96,12 @@ nav {
     display: block;
 }
 
-#dropbtn:hover .dropdown-content {
-    display: block;
+.dropdown-link:hover{
+	background-color: rgba(0,0,0,0.5);
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /*==============================
