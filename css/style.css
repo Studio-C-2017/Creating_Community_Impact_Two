@@ -393,8 +393,8 @@ Disabilities Section
 }
 
 .dis-text {
-	padding-top:5%;
-	padding-bottom:7%;
+	padding-top:3%;
+	padding-bottom:1%;
 	line-height:35px;
 }
 
@@ -455,7 +455,7 @@ Resources Section
 Contact Section
 ==============================*/
 #cont-page-image {
-	background-image:url("../img/contact_large.jpg");
+	background-image:url("../img/contact_large2.jpg");
 	height:50vh;
 }
 
