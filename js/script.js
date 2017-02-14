@@ -96,13 +96,13 @@ $(document).ready(function() {
 
 		$("#vid-one").animate({
 
-			left: "-100%",
+			left: "0%",
 
 		}, 200);
 
 		$("#vid-two").animate({
 
-			right: "0%",
+			right: "-100%",
 
 		}, 200);
 
@@ -114,15 +114,15 @@ $(document).ready(function() {
 
 	$("#right-click").click(function() {
 
-		$("#vid-one").animate({
+		$("#vid-two").animate({
 
-			left: "0%",
+			right: "0%",
 
 		}, 200);
 
-		$("#vid-two").animate({
+		$("#vid-one").animate({
 
-			right: "-100%",
+			left: "-100%",
 
 		}, 200);
 
