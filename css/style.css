@@ -297,7 +297,6 @@ Home Section
 .selection {
 	width:90%;
 	height:80%;
-	border:1px solid #fff;
 	margin:auto;
 	margin-top:2.5%;
 	position:relative;
@@ -307,20 +306,14 @@ Home Section
 .vid-sel {
 	height:100%;
 	width:100%;
-	background-image:url("../img/comp_large.jpg");
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:center center;
 	position:absolute;
 }
 
 #vid-one {
-	background-image:url("../img/comp_large.jpg");
 }
 
 #vid-two {
 	right:-100%;
-	background-image:url("../img/lake_large.jpg");
 }
 
 /*==============================

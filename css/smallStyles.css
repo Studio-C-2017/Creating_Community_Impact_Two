@@ -195,6 +195,27 @@ Home Code
 	display:none;
 }
 
+#right-click, #left-click {
+	display:none;
+}
+
+.selection {
+	height:85%;
+}
+
+.video-section {
+	box-shadow:inset 0 0 0 800px rgba(0,0,0,0.7);
+}
+
+iframe {
+	height:50%;
+}
+
+#vid-two {
+	margin-top:5%;
+	right:0%;
+	top:50%;
+}
 
 /*==============================
 General Code
