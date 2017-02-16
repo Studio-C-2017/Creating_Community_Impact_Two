@@ -159,15 +159,17 @@ Home Code
 }
 
 .serv-p {
-	width:100%;
+	width:90%;
 	position:absolute;
 	left:0%;
 	top:0%;
+	line-height:18px;
 }
 
 .first-p {
-	width:100%;
-	top:0%;
+	width:90%;
+	left:5%;
+	top:5%;
 }
 
 .sec-head {
@@ -182,13 +184,15 @@ Home Code
 }
 
 .sec-p {
-	width:100%;
-	top:15%;
+	width:90%;
+	left:5%;
+	top:25%;
 }
 
 .third-p {
-	width:100%;
-	top:-10%;
+	width:90%;
+	left:5%;
+	top:-8%;
 }
 
 .link-button {
