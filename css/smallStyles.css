@@ -58,6 +58,12 @@ Nav Section
 	top:0px;
 	margin-top:0px;
 	list-style-type:none;
+	transition:all 0.5s ease;
+}
+
+.nav-ul-out-small {
+	right:0%;
+	transition:all 0.5s ease;
 }
 
 .nav-li {

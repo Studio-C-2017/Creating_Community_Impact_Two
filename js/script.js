@@ -1,94 +1,21 @@
-$(document).ready(function(){
+const documentWidth = $(document).width();
+const logoButton = document.querySelectorAll('.logo-button');
+const logoButtonSmall = document.querySelectorAll('.small-logo');
+const navUl = document.querySelectorAll('.nav-ul');
 
-	$(".logo-button").click(function(){
 
-		$(".logo-button").animate({
+$(logoButton[0]).click(function () {
 
-			right: "-5em",
-
-		}, 200);
-
-		$(".nav-ul").animate({
-			
-			right: "-5px",
-
-		}, 200);
-
-		$(".button").animate({
-
-			right: "0em",
-
-		}, 200);
-
-	});
-
-	$(".button").click(function() {
-
-		$(".button").animate({
-
-			right: "5em",
-
-		}, 200);
-
-		$(".nav-ul").animate({
-
-			right: "-45%",
-
-		}, 200);
-
-		$(".logo-button").animate({
-
-			right: "1em",
-
-		}, 200);
-
-	});
-
-	$(".small-logo").click(function() {
-
-		$(".nav-ul").animate({
-
-			right: "-5px",
-
-		}, 200);
-
-		$(".small-logo").animate({
-
-			right: "-3em",
-
-		}, 200);
-
-		$(".small-button").animate({
-
-			right: "0em",
-
-		}, 200);
-
-	});
-
-	$(".small-button").click(function() {
-
-		$(".nav-ul").animate({
-
-			right: "-125%",
-
-		}, 200);
-
-		$(".small-logo").animate({
-
-			right: "0.5em",
-
-		}, 200);
-
-		$(".small-button").animate({
-
-			right: "3em",
-
-		}, 200);
-
-	});
+	$(navUl[0]).toggleClass('nav-ul-out');
 
 });
+
+$(logoButtonSmall[0]).click(function() {
+
+	$(navUl[0]).toggleClass('nav-ul-out-small');
+
+});
+
 
 $(document).ready(function() {
 
@@ -133,3 +60,5 @@ $(document).ready(function() {
 	});
 
 });
+
+
