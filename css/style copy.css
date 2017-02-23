@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
 
+
 html, body {
 	width:100%;
 	height:100%;
@@ -65,6 +66,8 @@ nav {
 	list-style-type:none;
 }
 
+
+
 .nav-li {
 	margin-top:0px;
 	display:inline-block;
@@ -78,10 +81,6 @@ nav {
 	text-transform:uppercase;
 }
 
-.nav-li-a:hover{
-	color: #bbb;
-	transition:all 0.5s ease;
-}
 .dropdown{
 	position: relative;
 	display: inline-block;
@@ -155,6 +154,110 @@ Home Section
 	margin-bottom:4%;
 }
 
+<<<<<<< Updated upstream
+=======
+#services-section {
+	width:100%;
+	height:30em;
+	background-color:#ededed;
+	padding-top:2%;
+	overflow:hidden;
+	position:relative;
+}
+
+.text-h3 {
+	width:25%;
+	text-transform: uppercase;
+	padding:5px 0px 5px 0px;
+	font-weight:lighter;
+	font-size:35px;
+	color:#696969;
+	margin:auto;
+	text-align:center;
+}
+
+.serv-area {
+	position:absolute;
+	bottom:0px;
+	width:33.33%;
+	height:20em;
+	background-color:#ededed;
+	text-align:center;
+	transition:all 0.5s ease;
+}
+
+.serv-area:hover {
+	height:24em;
+}
+
+.serv-area:hover .first-p {
+	margin-bottom:2%;
+}
+
+.serv-area:hover .sec-p {
+	margin-bottom:2%;
+}
+
+.serv-area:hover .third-p {
+	margin-bottom:2%;
+}
+
+.second-area {
+	left:33.33%;
+}
+
+.third-area {
+	right:0px;
+}
+
+.serv-sec-head {
+	font-weight:lighter;
+}
+
+.serv-p {
+	width:80%;
+	margin:auto;
+	margin-top:10%;
+	line-height:30px;
+	text-align:left;
+}
+
+.first-p {
+	margin-bottom:30%;
+	transition:all 0.5s ease;
+}
+
+.sec-p {
+	margin-bottom:30%;
+	transition:all 0.5s ease;
+}
+
+.third-p {
+	margin-bottom:15%;
+	transition:all 0.5s ease;
+}
+
+.heading_link {
+	color:#696969;
+}
+
+.link-button {
+	padding:15px;
+	border-radius:20px;
+	text-transform:uppercase;
+	font-size:18px;
+	border:2px solid #696969;
+	background-color:transparent;
+	color:#696969;
+	outline:none;
+	transition:all 0.5s ease;
+}
+
+.link-button:hover {
+	background-color:#696969;
+	color:#ededed;
+}
+>>>>>>> Stashed changes
 
 .video-section {
 	width:100%;
@@ -175,7 +278,7 @@ Home Section
 	font-size:35px;
 	width:25%;
 	padding:5px 0px 5px 0px;
-	border:2px solid #fff;
+	text-transform: uppercase;
 	margin:auto;
 	color:#fff;
 	text-align:center;
@@ -261,9 +364,9 @@ About Section
 	font-weight:lighter;
 	padding:10px 0px 10px 0px;
 	text-transform: uppercase;
-	font-size: 25pt;
 	width:40%;
 	margin:auto;
+	font-size: 2.3em;
 }
 
 /*==============================
@@ -360,15 +463,6 @@ Resources Section
 	background-image:url("../img/lake_large.jpg");
 }
 
-.links a{
-	color: #008dd0;
-	text-decoration: none;
-}
-
-.links a:hover{
-	color: #fbb316;
-}
-
 /*==============================
 Contact Section
 ==============================*/
@@ -378,13 +472,9 @@ Contact Section
 }
 
 #contact a{
-  color: #008dd0;
+  color: #008080;
   text-decoration: none;
   transition:all 0.5s ease;
-}
-
-#contact a:hover{
-  color: #fbb316;
 }
 
 #contact li{
@@ -399,14 +489,14 @@ Contact Section
 	text-align:center;
 	padding:25px;
 	border-radius:20px;
-	border:1px solid #008dd0;
+	border:1px solid #008080;
 	width:20%;
 	transition:all 0.5s ease;
-	color:#008dd0;
+	color:#008080;
 }
 
 #linkedIn:hover {
-	background-color:#008dd0;
+	background-color:#008080;
 	color:#fff;
 }
 
