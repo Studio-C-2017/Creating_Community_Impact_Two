@@ -151,107 +151,6 @@ Home Section
 	margin-bottom:4%;
 }
 
-#services-section {
-	width:100%;
-	height:30em;
-	background-color:#ededed;
-	padding-top:2%;
-	overflow:hidden;
-	position:relative;
-}
-
-.text-h3 {
-	width:25%;
-	padding:5px 0px 5px 0px;
-	border:2px solid #696969;
-	font-weight:lighter;
-	font-size:35px;
-	color:#696969;
-	margin:auto;
-	text-align:center;
-}
-
-.serv-area {
-	position:absolute;
-	bottom:0px;
-	width:33.33%;
-	height:20em;
-	background-color:#ededed;
-	text-align:center;
-	transition:all 0.5s ease;
-}
-
-.serv-area:hover {
-	height:24em;
-}
-
-.serv-area:hover .first-p {
-	margin-bottom:2%;
-}
-
-.serv-area:hover .sec-p {
-	margin-bottom:2%;
-}
-
-.serv-area:hover .third-p {
-	margin-bottom:2%;
-}
-
-.second-area {
-	left:33.33%;
-}
-
-.third-area {
-	right:0px;
-}
-
-.serv-sec-head {
-	font-weight:lighter;
-}
-
-.serv-p {
-	width:80%;
-	margin:auto;
-	margin-top:10%;
-	line-height:30px;
-	text-align:left;
-}
-
-.first-p {
-	margin-bottom:30%;
-	transition:all 0.5s ease;
-}
-
-.sec-p {
-	margin-bottom:30%;
-	transition:all 0.5s ease;
-}
-
-.third-p {
-	margin-bottom:15%;
-	transition:all 0.5s ease;
-}
-
-.heading_link {
-	color:#696969;
-}
-
-.link-button {
-	padding:15px;
-	border-radius:20px;
-	text-transform:uppercase;
-	font-size:18px;
-	border:2px solid #696969;
-	background-color:transparent;
-	color:#696969;
-	outline:none;
-	transition:all 0.5s ease;
-}
-
-.link-button:hover {
-	background-color:#696969;
-	color:#ededed;
-}
 
 .video-section {
 	width:100%;
@@ -283,7 +182,7 @@ Home Section
 	height:2em;
 	position:absolute;
 	top:55%;
-	left:0px;
+	left:15px;
 }
 
 #right-click {
@@ -291,7 +190,7 @@ Home Section
 	height:2em;
 	position:absolute;
 	top:55%;
-	right:0px;
+	right:15px;
 }
 
 .selection {
@@ -307,12 +206,20 @@ Home Section
 	height:100%;
 	width:100%;
 	position:absolute;
+	transition:all 0.5s ease;
 }
 
 #vid-one {
+	right:0%;
+	transition:all 0.5s ease;
 }
 
 #vid-two {
+	right:-100%;
+	transition:all 0.5s ease;
+}
+
+#vid-three {
 	right:-100%;
 }
 
@@ -459,6 +366,7 @@ Contact Section
 #contact a{
   color: #008080;
   text-decoration: none;
+  transition:all 0.5s ease;
 }
 
 #contact li{
@@ -468,4 +376,23 @@ Contact Section
 #contact{
 	padding: 0;
 }
+
+#linkedIn {
+	text-align:center;
+	padding:25px;
+	border-radius:20px;
+	border:1px solid #008080;
+	width:20%;
+	transition:all 0.5s ease;
+	color:#008080;
+}
+
+#linkedIn:hover {
+	background-color:#008080;
+	color:#fff;
+}
+
+
+
+
 

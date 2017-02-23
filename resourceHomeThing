@@ -1,0 +1,324 @@
+//css
+
+#services-section {
+	width:100%;
+	height:30em;
+	background-color:#ededed;
+	padding-top:2%;
+	overflow:hidden;
+	position:relative;
+}
+
+.text-h3 {
+	width:25%;
+	padding:5px 0px 5px 0px;
+	border:2px solid #696969;
+	font-weight:lighter;
+	font-size:35px;
+	color:#696969;
+	margin:auto;
+	text-align:center;
+}
+
+.serv-area {
+	position:absolute;
+	bottom:0px;
+	width:33.33%;
+	height:20em;
+	background-color:#ededed;
+	text-align:center;
+	transition:all 0.5s ease;
+}
+
+.serv-area:hover {
+	height:24em;
+}
+
+.serv-area:hover .first-p {
+	margin-bottom:2%;
+}
+
+.serv-area:hover .sec-p {
+	margin-bottom:2%;
+}
+
+.serv-area:hover .third-p {
+	margin-bottom:2%;
+}
+
+.second-area {
+	left:33.33%;
+}
+
+.third-area {
+	right:0px;
+}
+
+.serv-sec-head {
+	font-weight:lighter;
+}
+
+.serv-p {
+	width:80%;
+	margin:auto;
+	margin-top:10%;
+	line-height:30px;
+	text-align:left;
+}
+
+.first-p {
+	margin-bottom:30%;
+	transition:all 0.5s ease;
+}
+
+.sec-p {
+	margin-bottom:30%;
+	transition:all 0.5s ease;
+}
+
+.third-p {
+	margin-bottom:15%;
+	transition:all 0.5s ease;
+}
+
+.heading_link {
+	color:#696969;
+}
+
+.link-button {
+	padding:15px;
+	border-radius:20px;
+	text-transform:uppercase;
+	font-size:18px;
+	border:2px solid #696969;
+	background-color:transparent;
+	color:#696969;
+	outline:none;
+	transition:all 0.5s ease;
+}
+
+.link-button:hover {
+	background-color:#696969;
+	color:#ededed;
+}
+
+medium styles
+
+.serv-area {
+	width:100%;
+	height:10em;
+}
+
+.serv-area:hover {
+	height:10em;
+}
+
+.first-area {
+	top:0px;
+}
+
+.second-area {
+	top:10em;
+	left:0px;
+}
+
+.serv-sec-head {
+	width:20%;
+	position:absolute;
+	left:0px;
+	padding-right:5px;
+	border-right:2px solid #696969;
+}
+
+.first-head {
+	top:15%;
+}
+
+.third-head {
+	top:15%;
+}
+
+.serv-p {
+	width:60%;
+	position:absolute;
+	left:22%;
+	top:-40%;
+}
+
+.first-p {
+	width:55%;
+}
+
+.sec-p {
+	width:55%;
+	top:-30%;
+}
+
+.third-p {
+	width:55%;
+	top:-60%;
+}
+
+.link-button {
+	width:20%;
+	position:absolute;
+	right:0px;
+	top:35%;
+}
+
+Small Styles
+
+.serv-area {
+	width:100%;
+	height:10em;
+}
+
+.serv-area:hover {
+	height:10em;
+}
+
+.first-area {
+	top:0px;
+}
+
+.second-area {
+	top:10em;
+	left:0px;
+}
+
+.serv-sec-head {
+	width:100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+	padding-right:5px;
+	font-size:15px;
+	transition:all 0.5s ease;
+}
+
+.serv-sec-head:hover {
+	background-color:#696969;
+	color:#ededed;
+}
+
+.serv-p {
+	font-size:15px;
+	text-align:center;
+}
+
+.first-head {
+	top:2%;
+	border:1px solid #696969;
+	width:60%;
+	text-align:center;
+	margin:auto auto;
+	padding:10px;
+	border-radius:20px;
+	left:20%;
+}
+
+.third-head {
+	top:-10%;
+	border:1px solid #696969;
+	width:75%;
+	text-align:center;
+	margin:auto auto;
+	padding:10px;
+	border-radius:20px;
+	left:12.5%;
+}
+
+.serv-p {
+	width:90%;
+	position:absolute;
+	left:0%;
+	top:0%;
+	line-height:18px;
+}
+
+.first-p {
+	width:90%;
+	left:5%;
+	top:5%;
+}
+
+.sec-head {
+	top:10%;
+	border:1px solid #696969;
+	width:75%;
+	text-align:center;
+	margin:auto auto;
+	padding:10px;
+	border-radius:20px;
+	left:12.5%;
+}
+
+.sec-p {
+	width:90%;
+	left:5%;
+	top:25%;
+}
+
+.third-p {
+	width:90%;
+	left:5%;
+	top:-8%;
+}
+
+.link-button {
+	display:none;
+}
+
+//HTML
+
+<div id="services-section">
+				
+			<h3 class="text-h3">Resources</h3>
+
+			<div class="serv-area first-area">
+				
+				<a class="heading_link" target="_blank" href="http://www.oregon.gov/EMPLOY/Businesses/Pages/Work-Opportunity-Tax-Credit.aspx"><h2 class="serv-sec-head first-head">Work Opportunity Tax Credit</h2></a>
+
+              	<p class="serv-p first-p">The Work Opportunity Tax Credit (WOTC) is a Federal tax credit, and it is designed as an incentive for businesses to hire individuals that consistently face significant barriers to employment.</p>
+
+              	<a target="_blank" href="http://www.oregon.gov/EMPLOY/Businesses/Pages/Work-Opportunity-Tax-Credit.aspx">
+
+                <button class="link-button">  
+                 Click Here
+                </button>
+
+             	</a>  
+
+			</div>
+
+			<div class="serv-area second-area">
+				
+				<a class="heading_link" target="_blank" href="https://www.youtube.com/user/WiSeMovies"><h2 class="serv-sec-head sec-head">Washington Initiative for Supportive Employment</h2></a>
+               
+              	<p class="serv-p sec-p">WISE is a job development company that assists individuals in finding suitable employment within their community.</p>
+
+              	<a target="_blank" href="https://www.youtube.com/user/WiSeMovies">
+
+                <button class="link-button">
+                    Click Here
+                </button>
+
+              	</a>
+
+			</div>
+
+			<div class="serv-area third-area">
+				
+				<a class="heading_link" target="_blank" href="https://www.youtube.com/watch?v=VPXiIYz4uw0"><h2 class="serv-sec-head third-head">Starbucks Great Hires</h2></a>
+
+                <p class="serv-p third-p">This video features three employers of people with developmental disabilities in Washington State. Howard Schultz of Starbucks, the President of Childrens Hospital, and Auntie's Anne's Pretzels speak to the value of supported employment from the employer/business perspective.</p>
+
+                <a target="_blank" href="https://www.youtube.com/watch?v=VPXiIYz4uw0">
+                  <button class="link-button">
+                      Click Here
+                  </button>
+                </a>
+
+			</div>
+
+            </div>

@@ -16,49 +16,53 @@ $(logoButtonSmall[0]).click(function() {
 
 });
 
+const leftArrow = document.getElementById('left-click');
+const rightArrow = document.getElementById('right-click');
+const videoSel = document.getElementsByClassName('vid-sel');
 
-$(document).ready(function() {
+var j = -1;  // first click 0, second click 1;
+var a = 0; // first click 1, second click 2;
 
-	$("#left-click").click(function() {
+function rightArrowClick() {
 
-		$("#vid-one").animate({
+	j++;
+	a++;
+	videoSel[j].style.right = "100%";
+	videoSel[a].style.right = "0%";
+}
 
-			left: "0%",
+rightArrow.addEventListener('click', function() {
 
-		}, 200);
-
-		$("#vid-two").animate({
-
-			right: "-100%",
-
-		}, 200);
-
-		$("#right-click").css("opacity", "0.5");
-
-		$("#left-click").css("opacity", "1");
-
-	});
-
-	$("#right-click").click(function() {
-
-		$("#vid-two").animate({
-
-			right: "0%",
-
-		}, 200);
-
-		$("#vid-one").animate({
-
-			left: "-100%",
-
-		}, 200);
-
-		$("#left-click").css("opacity", "0.5");
-
-		$("#right-click").css("opacity", "1");
-
-	});
+	rightArrowClick();
 
 });
+
+function leftArrowClick() {
+
+	j--;
+	a--;
+
+	videoSel[j].style.right = "0%";
+	videoSel[a].style.right = "-100%";
+}
+
+
+leftArrow.addEventListener('click', function() {
+
+	leftArrowClick();
+
+});
+/*function leftArrowClick() {
+	var a = j--;
+	foodpopdis[a].style.marginLeft = "3.5%";
+}
+
+leftArrow.addEventListener('click', function() {
+
+	leftArrowClick();
+
+});*/
+
+
 
 
