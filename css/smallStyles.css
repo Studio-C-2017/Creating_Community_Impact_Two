@@ -191,9 +191,23 @@ General Code
 .title-name {
 	top:22.5%;
 	text-align:center;
-	font-size:25px;
+	font-size:30px;
 }
 
 .img-txt-break {
 	width:80%;
+	font-size:23px;
+}
+
+.text-body-p{
+	line-height: 25px;
+}
+
+.quote{
+	width: 90%;
+	margin: 8% auto;
+}
+
+footer > p{
+	padding: 4% 0;
 }
